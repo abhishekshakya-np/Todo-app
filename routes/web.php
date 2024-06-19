@@ -9,15 +9,16 @@ Route::get('/', function () {
 
 
 //i lesson start
-Route::get('/todos', TodosController::class );
+//Route::get('todos', 'TodosController@index');
+Route::get('/todos', TodosController['index']);
 
 
 
 //ii practice start
-Route::get('/todos1', TodoAgainController::class );
+//Route::get('/todos1', TodoAgainController::class );
 
 
 
 //iii  mainly yourself practice start
 //controller name cant put !@#$
-Route::get('/todos!', TodosAgainAgainController::class );
+//Route::get('/todos!', TodosAgainAgainController::class );
