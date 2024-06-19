@@ -14,9 +14,10 @@ Route::get('/todos', TodosController::class );
 
 
 //ii practice start
-Route::get('/todos1', Todos1Controller::class );
+Route::get('/todos1', TodoAgainController::class );
+
 
 
 //iii  mainly yourself practice start
 //controller name cant put !@#$
-Route::get('/todos!', Todos2Controller::class );
+Route::get('/todos!', TodosAgainAgainController::class );
